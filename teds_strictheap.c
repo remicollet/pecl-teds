@@ -24,11 +24,10 @@
 #include "teds_util.h"
 #include "teds.h"
 #include "teds_interfaces.h"
-// #include "ext/spl/spl_functions.h"
-#include "ext/spl/spl_engine.h"
 #include "ext/spl/spl_exceptions.h"
 #include "ext/spl/spl_iterators.h"
 #include "ext/json/php_json.h"
+#include "Zend/zend_interfaces.h"
 
 #include <stdbool.h>
 

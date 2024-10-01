@@ -24,8 +24,6 @@
 #include "teds_immutableiterable_arginfo.h"
 #include "teds_immutableiterable.h"
 #include "teds_exceptions.h"
-// #include "ext/spl/spl_functions.h"
-#include "ext/spl/spl_engine.h"
 #include "ext/spl/spl_exceptions.h"
 #include "ext/spl/spl_iterators.h"
 #include "ext/json/php_json.h"

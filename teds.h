@@ -2,7 +2,9 @@
 #define TEDS_H
 
 #include "zend_API.h"
+#if PHP_VERSION_ID < 80400
 #include "ext/spl/spl_engine.h"
+#endif
 #include "teds_bswap.h"
 
 #define TEDS_MINIT_IGNORE_UNUSED() do { (void) type; (void) module_number; } while (0)

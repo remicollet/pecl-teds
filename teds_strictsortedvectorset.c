@@ -27,8 +27,6 @@
 #include "teds_exceptions.h"
 #include "teds_vector.h"
 #include "teds.h"
-// #include "ext/spl/spl_functions.h"
-#include "ext/spl/spl_engine.h"
 #include "ext/spl/spl_exceptions.h"
 #include "ext/spl/spl_iterators.h"
 #include "ext/json/php_json.h"
