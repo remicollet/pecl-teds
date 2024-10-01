@@ -46,9 +46,9 @@ string(10) "helloworld"
 string(12) "HELLO WORLD!"
 string(12) "HELLO WORLD!"
 
-Warning: {closure}(): Argument #1 ($carry) must be passed by reference, value given in %s on line 12
+Warning: {closur%s}(): Argument #1 ($carry) must be passed by reference, value given in %s on line 12
 
-Warning: {closure}(): Argument #1 ($carry) must be passed by reference, value given in %s on line 12
+Warning: {closur%s}(): Argument #1 ($carry) must be passed by reference, value given in %s on line 12
 
-Warning: {closure}(): Argument #1 ($carry) must be passed by reference, value given in %s on line 12
+Warning: {closur%s}(): Argument #1 ($carry) must be passed by reference, value given in %s on line 12
 string(12) "HELLO WORLD!"

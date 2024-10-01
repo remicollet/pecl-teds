@@ -72,7 +72,7 @@ bool(true)
 int(2)
 
 *** Testing second argument to predicate ***
-Caught ArgumentCountError: Too few arguments to function {closure}(), 1 passed and exactly 2 expected
+Caught ArgumentCountError: Too few arguments to function {closur%s}(), 1 passed and exactly 2 expected
 
 *** Testing edge cases ***
 bool(false)

@@ -64,7 +64,7 @@ foreach ($values as $value) {
     $all[$hash] = $value;
 }
 ?>
---EXPECT--
+--EXPECTF--
 NULL
 => 0x06742e765a0a0214
 bool(false)
@@ -153,10 +153,10 @@ object(stdClass)#1 (0) {
 object(stdClass)#2 (0) {
 }
 => 0xb8d3134c0b865909
-object(Closure)#3 (0) {
+object(Closure)#3 (%d) {%A
 }
 => 0x91bcd0ffe3de8667
-object(Closure)#4 (0) {
+object(Closure)#4 (%d) {%A
 }
 => 0x6aa58db3bc37b4c5
 resource(1) of type (stream)
