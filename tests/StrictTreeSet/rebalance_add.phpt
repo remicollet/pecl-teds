@@ -3,8 +3,8 @@ Teds\StrictTreeSet rebalances
 --FILE--
 <?php
 $it = new Teds\StrictTreeSet();
-for ($i = 'aa'; $i < 'ak'; $i++) {
-    $it->add($i);
+for ($i = 0; $i < 10; $i++) {
+    $it->add('a' . chr(ord('a')+$i));
 }
 echo json_encode($it->debugGetTreeRepresentation(), JSON_PRETTY_PRINT), "\n";
 var_dump($it);
